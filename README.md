@@ -101,6 +101,28 @@ To update:
 gemini extensions update superpowers
 ```
 
+### Hermes Agent
+
+Clone the repository and create a symlink:
+
+```bash
+git clone https://github.com/obra/superpowers.git
+ln -s $(pwd)/superpowers ~/.hermes/plugins/superpowers
+```
+
+Or install directly:
+
+```bash
+git clone https://github.com/obra/superpowers.git ~/.hermes/plugins/superpowers
+```
+
+To update:
+
+```bash
+cd ~/.hermes/plugins/superpowers
+git pull
+```
+
 ### Verify Installation
 
 Start a new session in your chosen platform and ask for something that should trigger a skill (for example, "help me plan this feature" or "let's debug this issue"). The agent should automatically invoke the relevant superpowers skill.
