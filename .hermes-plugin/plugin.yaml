@@ -1,0 +1,21 @@
+name: superpowers
+version: 5.0.7
+description: "Core skills library for Hermes Agent: TDD, debugging, collaboration patterns, and proven techniques"
+provides_tools:
+  - brainstorming
+  - writing-plans
+  - subagent-driven-development
+  - test-driven-development
+  - systematic-debugging
+  - verification-before-completion
+  - requesting-code-review
+  - receiving-code-review
+  - using-git-worktrees
+  - finishing-a-development-branch
+  - writing-skills
+  - using-superpowers
+  - dispatching-parallel-agents
+  - executing-plans
+provides_hooks:
+  - on_session_start
+  - pre_llm_call
